@@ -16,16 +16,16 @@ FROM albums
 WHERE name = 'Nevermind';
 
 SELECT 'Grabbing albums released in the 1990''s' AS 'Output Caption';
-SELECT name
+SELECT *
 FROM albums
 WHERE release_date BETWEEN 1990 AND 2000;
 
 SELECT 'Grabbing albums with less than 20 million certified sales' AS 'Output Caption';
-SELECT name
+SELECT *
 FROM albums
 WHERE sales < 20.0;
 
 SELECT 'Grabbing albums with a genre of Rock' AS 'Output Caption';
-SELECT name
+SELECT *
 FROM albums
 WHERE genre = 'Rock';
