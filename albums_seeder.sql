@@ -7,4 +7,9 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop'),
        ('Eagles', 'Hotel California', 1976, 31.8, 'Soft Rock'),
        ('Shania Twain', 'Come On Over', 1997, 30.4, 'Country'),
        ('Fleetwood Mac', 'Rumours', 1977, 29.3, 'Soft Rock'),
-       ('Bee Gees', 'Saturday Night Fever', 1977, 22.1, 'Disco');
+       ('Bee Gees', 'Saturday Night Fever', 1977, 22.1, 'Disco'),
+       ('Led Zeppelin', 'Led Zeppelin IV', 1971, 30.4, 'Hard Rock'),
+       ('Michael Jackson', 'Bad', 1987, 21.1, 'Pop'),
+       ('Celine Dion', 'Falling into You', 1996, 21.1, 'Pop'),
+       ('The Beatles', 'Sgt.Pepper''s Lonely Hearts Club Band', 1967, 18.3, 'Rock'),
+       ('Nirvana', 'Nevermind', 1991, 17.8, 'Grunge');
