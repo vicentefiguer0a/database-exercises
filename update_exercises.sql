@@ -2,7 +2,7 @@ USE codeup_test_db;
 
 SELECT 'Grabbing all albums' AS 'Output Caption';
 
-SELECT name
+SELECT *
 FROM albums;
 
 UPDATE albums
@@ -12,7 +12,7 @@ SELECT sales
 FROM albums;
 
 SELECT 'Grabbing all albums released before 1980' AS 'Output Caption';
-SELECT name
+SELECT *
 FROM albums
 WHERE release_date < 1980;
 
@@ -25,7 +25,7 @@ FROM albums;
 
 SELECT 'Grabbing all albums by Michael Jackson' AS 'Output Caption';
 
-SELECT name
+SELECT *
 FROM albums
 WHERE artist = 'Michael Jackson';
 
